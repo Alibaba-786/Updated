@@ -5,15 +5,17 @@ package.domain = org.example
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 1.0.0
-requirements = python3,kivy,requests
+requirements = python3,kivy==2.3.0,requests
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET, READ_EXTERNAL_STORAGE, READ_MEDIA_IMAGES, READ_MEDIA_VIDEO
 android.api = 33
 android.minapi = 21
+android.ndk = 25b
 android.archs = arm64-v8a, armeabi-v7a
 android.allow_backup = True
 android.debug_icon = 1
+p4a.branch = master
 
 [buildozer]
 log_level = 2
